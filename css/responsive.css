@@ -57,6 +57,7 @@ section {
   justify-content: flex-start;
 }
 
+
 h2 {
   text-align: center;
   font-size: 2rem;
@@ -80,7 +81,10 @@ section article img {
     height: 200px;
     width: 100%;
 }
+.products-row .product {
 
+  margin-right: 30px;
+}
 .product-body p.price {
   margin-left: 0px;
 }
@@ -107,5 +111,10 @@ section article img {
 }
 
 footer section div {
-    width: 275px;
+  width: auto;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+footer div a {
+  padding: 5px;
 }

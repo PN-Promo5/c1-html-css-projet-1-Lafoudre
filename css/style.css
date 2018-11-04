@@ -67,7 +67,7 @@ h1 {
 h2 {
   font-size: 3rem;
   font-weight: 700;
-  margin: 40px 0;
+
   margin-bottom: 5px;
 }
 
@@ -173,7 +173,7 @@ header p {
 }
 
 .btn:hover {
-  color: gold;
+  color: #FFAB00;
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .25), 0 4px 15px 0 rgba(0, 0, 0, .20);
 }
 
@@ -183,7 +183,7 @@ header p {
   padding: 10px 50px;
   font-size: 2em;
   text-decoration: none;
-  margin: 150px 50px;
+  margin: 0px 50px;
   display: inline-block;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
   font-weight: 600;
@@ -223,22 +223,25 @@ section {
 #color {
   color: #FFAB00;
   text-align: center;
+  padding-top: 40px;
 }
 
 .promo {
   background-color: black;
-  height: 350px;
   width: 1313px;
-  ;
+  padding: 15px;
+  display: flex;
+  align-items: center;
 }
+
 
 .promo h2 {
   color: #FFAB00;
-  padding-top: 50px;
+font-size: 2rem;
   text-align: center;
 }
 #place {
-  padding-top: 110px;
+  font-size: 3rem;
 }
 
 
@@ -345,19 +348,19 @@ section article h3 {
   color: black;
 }
 .favoris:hover{
-  color: gold;
+  color: #FFAB00;
 }
 .product-body h4 {
   font-size: 1rem;
   font-weight: 800;
   margin: 0;
   float: left;
-  color: gold;
+  color: #FFAB00;
 }
 
 .product-body p.price {
   font-weight: 800;
-  color: gold;
+  color: #FFAB00;
   margin-left: 280px;
 }
 
@@ -394,7 +397,7 @@ text-align: justify;
 }
 footer div a {
   display: flex;
-  padding: 20px;
+  padding: 15px;
   color: white;
 }
 div form {
@@ -413,7 +416,7 @@ textarea {
 }
 .ancre-img {
   position: fixed;
-color: gold;
+color: #FFAB00;
 right: 30px;
 bottom: 30px;
 font-size: 3em;

@@ -118,3 +118,6 @@ footer section div {
 footer div a {
   padding: 5px;
 }
+div ul {
+  list-style-type: none;
+}

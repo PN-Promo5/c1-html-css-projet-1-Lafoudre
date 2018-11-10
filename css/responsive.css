@@ -65,11 +65,15 @@ h2 {
 section.avantage div.art {
   display: flex;
   flex-direction: column;
+
 }
 .promo {
   display: flex;
   flex-direction: column;
-height: 400px;
+}
+
+section article h3 {
+    font-size: 1.5rem;
 }
 
 section article {
@@ -120,4 +124,11 @@ footer div a {
 }
 div ul {
   list-style-type: none;
+}
+
+.align {
+    margin-top: 10px;
+}
+.avtg {
+    margin-bottom: 0px;
 }
